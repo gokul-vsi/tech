@@ -1,0 +1,248 @@
+/* google font linking*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* navbar-styling */
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+nav a:hover{
+     border-bottom: 2px solid #B3E2A7;
+}
+nav{
+    margin-top: 15px;
+}
+.nav-button{
+    margin-top: 10px;
+    padding: 6px;
+    background-color: #B3E2A7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-button:hover{
+    border: 1px solid #B3E2A7;
+    color: #000;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 6px;
+}
+.main-nav{
+    background-color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 5px 10px #ccc;
+}
+/* Home */
+.main-for-image-contant{
+    display: flex;
+    margin-left: 10%;
+    gap: 0px;
+    margin-top: 30px;
+   text-align: center;
+}
+.home-image img{
+    width: 390px;
+    height:300px;
+}
+.contant-home{
+    padding: 8px;
+    margin-top: 27px;
+    width: 350px;
+    height: 265px;
+    background-color: #EEEEEE;
+}
+.contant-home button{
+    margin-top: 22px;
+    padding: 6px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.contant-home button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.Home-main-div{
+    width: 650px;
+    height:260px;
+    margin-top: 180px;
+    margin-left: 20%;
+    background-color: #B3E2A7;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+
+
+}
+.contant-home p{
+    font-size: 13px;
+    margin-top: 14px;
+}
+.contant-home h3{
+    font-size: 27px;
+    margin-top: 5px;
+}
+/* about */
+.main-about{
+    width:900px;
+    height: 200px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.main-about h1{
+    padding-bottom: 20px;
+}
+.abt-btn{
+   margin-bottom: 20px;
+   padding: 6px;
+   background-color: #ccc;
+   color: #000;
+   border: none;
+   border-radius: 10px;
+}
+/* project */
+.pg-bg-img{
+    margin-top: 50px;
+    background-image: url(../image/bg-image.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    text-align: center;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.column-h1{
+    display: flex;
+    flex-direction: column;
+}
+.right-side{
+    text-align: center;
+    width: 500px;
+}  
+.left-side h1{
+    width: 280px;
+    font-size: 35px;
+    margin-left: 20%;
+}
+.left-side p{
+    margin-top: 10px;
+    padding-bottom: 80px;
+}
+.group-1,.group-2,.group-3{
+    display: flex;
+    gap: 20px;
+} 
+.r1,.r2,.r3,.r4,.r5,.r6{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 150px;
+    height: 100px;
+    background-color: #B3E2A7;
+    padding-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.r6{
+    text-align: center;
+}
+/* About-2 */
+.sec-abt-2{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 27%;
+}
+.abt-2-right{
+    width: 300px;
+    height: 230px;
+    background-color: #B3E2A7;
+    text-align: center;
+    padding-top: 30px;
+}
+.abt-2-right h1{
+    margin-top: 10px;
+}
+.abt-2-left img{
+    width: 300px;
+    height: 150px;
+}
+.abt-img-contant{
+    width: 300px;
+    height:150px;
+    text-align: center;
+}
+.mar{
+    margin-top: 50px;
+}
+.abt-2-right button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.abt-2-right button:hover{
+    background-color: #fff;
+    color:#000;
+    border: 1px solid #000;
+}
+.abt-2-left p{
+    font-size: 13px;
+}
+/* contact */
+.footer-contant{
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 30vh;
+    background-color: #B3E2A7;
+}
+.contact-flex i{
+    font-size: 20px;
+    padding-left:30px;
+}
+.icons-size{
+    font-size: 70px;
+    color:#000;
+    margin-top: 30px;
+}
+.f-h2{
+    margin-top: 30px;
+}
+.f-h1{
+    padding-top: 15px;
+}
